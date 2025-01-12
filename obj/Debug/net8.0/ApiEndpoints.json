@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "LocacaoDeVeiculos.Controllers.CarroController",
+    "Method": "AddCarro",
+    "RelativePath": "Carro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "LocacaoDeVeiculos.Dtos.Carro.CreateCarroDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LocacaoDeVeiculos.Controllers.CarroController",
+    "Method": "GetCompactos",
+    "RelativePath": "Carro/Compactos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LocacaoDeVeiculos.Controllers.CarroController",
+    "Method": "GetSuv",
+    "RelativePath": "Carro/Suv",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LocacaoDeVeiculos.Controllers.LocacaoController",
+    "Method": "Add",
+    "RelativePath": "Locacao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "LocacaoDeVeiculos.Dtos.Locacao.CreateLocacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LocacaoDeVeiculos.Controllers.LocacaoController",
+    "Method": "Get",
+    "RelativePath": "Locacao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LocacaoDeVeiculos.Controllers.LocadorController",
+    "Method": "Criar",
+    "RelativePath": "Locador",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "LocacaoDeVeiculos.Dtos.Locador.CreateLocadorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LocacaoDeVeiculos.Controllers.LocadorController",
+    "Method": "Locador",
+    "RelativePath": "Locador",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
